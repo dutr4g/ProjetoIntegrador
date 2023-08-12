@@ -1,0 +1,5 @@
+<Directory "C:/xampp/htdocs/paginas/public">
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>

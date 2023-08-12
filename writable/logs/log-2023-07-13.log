@@ -1,0 +1,61 @@
+CRITICAL - 2023-07-13 12:58:44 --> Undefined property: App\Controllers\VagasCandidatos::$vagas_model
+in APPPATH\Controllers\VagasCandidatos.php on line 21.
+ 1 APPPATH\Controllers\VagasCandidatos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VagasCandidatos::$vagas_model', 'C:\\xampp\\htdocs\\paginas\\app\\Controllers\\VagasCandidatos.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\VagasCandidatos->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VagasCandidatos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 13:00:03 --> Undefined property: App\Controllers\VagasCandidatos::$load
+in APPPATH\Controllers\VagasCandidatos.php on line 24.
+ 1 APPPATH\Controllers\VagasCandidatos.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\VagasCandidatos::$load', 'C:\\xampp\\htdocs\\paginas\\app\\Controllers\\VagasCandidatos.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\VagasCandidatos->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VagasCandidatos))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 13:01:24 --> Undefined variable $vagas
+in APPPATH\Views\pagina2.php on line 59.
+ 1 APPPATH\Views\pagina2.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vagas', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\VagasCandidatos.php(24): view('pagina2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\VagasCandidatos->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VagasCandidatos))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 16:54:50 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\VagasCandidatos.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paginas\\app\\Controllers\\VagasCandidatos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\VagasCandidatos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\VagasCandidatos')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\VagasCandidatos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 16:56:00 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\VagasCandidatos.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paginas\\app\\Controllers\\VagasCandidatos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\VagasCandidatos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\VagasCandidatos')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\VagasCandidatos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 16:56:36 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\VagasCandidatos.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paginas\\app\\Controllers\\VagasCandidatos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\VagasCandidatos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\VagasCandidatos')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\VagasCandidatos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 16:57:13 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\VagasCandidatos.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paginas\\app\\Controllers\\VagasCandidatos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\VagasCandidatos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\VagasCandidatos')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\VagasCandidatos', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

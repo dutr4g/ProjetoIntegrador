@@ -1,0 +1,428 @@
+CRITICAL - 2023-07-05 00:04:07 --> Undefined variable $vagas
+in APPPATH\Views\pagina2.php on line 60.
+ 1 APPPATH\Views\pagina2.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vagas', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('pagina2')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:24:03 --> Undefined variable $vagas
+in APPPATH\Views\pagina2.php on line 60.
+ 1 APPPATH\Views\pagina2.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vagas', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('pagina2')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:28:00 --> Undefined variable $vagas
+in APPPATH\Views\pagina2.php on line 60.
+ 1 APPPATH\Views\pagina2.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vagas', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('pagina2')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:32:39 --> Undefined variable $vagas
+in APPPATH\Views\pagina2.php on line 60.
+ 1 APPPATH\Views\pagina2.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vagas', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('pagina2')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:34:48 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\paginas\\app\\Controllers\\Home.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:34:49 --> Undefined property: App\Controllers\Home::$load
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$load', 'C:\\xampp\\htdocs\\paginas\\app\\Controllers\\Home.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:37:08 --> Class "CI_Model" not found
+in APPPATH\Models\Vagas_model.php on line 4.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paginas\\app\\Models\\Vagas_model.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vagas_model')
+ 4 APPPATH\Controllers\Home.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vagas_model')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:38:49 --> Cannot declare class App\Models\Vagas_model, because the name is already in use
+in APPPATH\Models\Vagas_model.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-05 00:39:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\Vagas_model.php on line 13.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:45:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\Vagas_model.php on line 13.
+ 1 APPPATH\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 00:49:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'clientes', 3306, '', 0)
+#1 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\paginas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\paginas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\paginas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\paginas\app\Models\Vagas_model.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\paginas\app\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+#8 C:\xampp\htdocs\paginas\system\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+#9 C:\xampp\htdocs\paginas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\paginas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paginas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\paginas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\paginas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\paginas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\paginas\app\Models\Vagas_model.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\paginas\app\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+#7 C:\xampp\htdocs\paginas\system\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+#8 C:\xampp\htdocs\paginas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\paginas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\paginas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 00:49:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vagas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Vagas_model.php(15): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:55:03 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:55:03 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:56:53 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:01:08 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:10:04 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:11:03 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:16:15 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:15:32 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:25:36 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:25:40 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:28:09 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:28:10 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:37:27 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:38:40 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:39:52 --> syntax error, unexpected token "protected", expecting end of file
+in APPPATH\Models\Vagas_model.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paginas\\app\\Models\\Vagas_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vagas_model')
+ 3 APPPATH\Controllers\Home.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vagas_model')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:42:15 --> Call to undefined method App\Models\Vagas_model::getVagas
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(23): CodeIgniter\Model->__call('getVagas', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 16:47:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'clientes', 3306, '', 0)
+#1 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\paginas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\paginas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\paginas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\paginas\app\Models\Vagas_model.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\paginas\app\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+#8 C:\xampp\htdocs\paginas\system\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+#9 C:\xampp\htdocs\paginas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\paginas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paginas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\paginas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\paginas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\paginas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\paginas\app\Models\Vagas_model.php(35): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\paginas\app\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+#7 C:\xampp\htdocs\paginas\system\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+#8 C:\xampp\htdocs\paginas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\paginas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\paginas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 16:47:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vagas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Vagas_model.php(35): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:02:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'clientes', 3306, '', 0)
+#1 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\paginas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\paginas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\paginas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\paginas\app\Models\Vagas_model.php(35): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\paginas\app\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+#8 C:\xampp\htdocs\paginas\system\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+#9 C:\xampp\htdocs\paginas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\paginas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paginas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\paginas\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\paginas\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\paginas\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\paginas\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\paginas\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\paginas\app\Models\Vagas_model.php(35): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\paginas\app\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+#7 C:\xampp\htdocs\paginas\system\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+#8 C:\xampp\htdocs\paginas\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\paginas\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\paginas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-05 17:02:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vagas`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Vagas_model.php(35): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(23): App\Models\Vagas_model->getVagas()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:07:43 --> Attempt to read property "titulo" on array
+in APPPATH\Views\pagina2.php on line 70.
+ 1 APPPATH\Views\pagina2.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on array', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 70)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('pagina2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:10:06 --> Attempt to read property "titulo" on array
+in APPPATH\Views\pagina2.php on line 70.
+ 1 APPPATH\Views\pagina2.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on array', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 70)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('pagina2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:25:43 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\pagina2.php on line 2.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 3 APPPATH\Controllers\Home.php(46): view('pagina2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:26:19 --> Call to undefined method App\Models\Candidatos_model::getCandidatos
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Model->__call('getCandidatos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:28:31 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\pagina2.php on line 2.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 3 APPPATH\Controllers\Home.php(23): view('pagina2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:29:51 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\pagina2.php on line 2.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 3 APPPATH\Controllers\Home.php(23): view('pagina2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:29:53 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\pagina2.php on line 2.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 3 APPPATH\Controllers\Home.php(23): view('pagina2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:32:52 --> Attempt to read property "titulo" on array
+in APPPATH\Views\pagina2.php on line 61.
+ 1 APPPATH\Views\pagina2.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "titulo" on array', 'C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php', 61)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\paginas\\app\\Views\\pagina2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pagina2', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('pagina2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:13:07 --> Call to undefined method App\Models\Candidatos_model::getCandidatos
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->__call('getCandidatos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:23:16 --> Call to undefined method App\Models\Candidatos_model::getCandidatos
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->__call('getCandidatos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 18:24:56 --> Call to undefined method App\Models\Candidatos_model::getCandidatos
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Home.php(25): CodeIgniter\Model->__call('getCandidatos', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->pagina2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

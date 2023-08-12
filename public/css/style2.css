@@ -1,0 +1,149 @@
+.panel {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panel h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .panel p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .vagas {
+    margin-bottom: 20px;
+  }
+  
+  .vagas h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #tabelaVagas {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tabelaVagas th,
+  #tabelaVagas td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .entrevistas {
+    margin-bottom: 20px;
+  }
+  
+  .entrevistas h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .entrevistas form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .entrevistas label {
+    margin-bottom: 5px;
+  }
+  
+  .entrevistas input[type="date"],
+  .entrevistas input[type="time"],
+  .entrevistas input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .testes {
+    margin-bottom: 20px;
+  }
+  
+  .testes h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .testes label {
+    margin-bottom: 5px;
+  }
+  
+  .testes input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comunicacao {
+    margin-bottom: 20px;
+  }
+  
+  .comunicacao h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .comunicacao label {
+    margin-bottom: 5px;
+  }
+  
+  .comunicacao textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .configuracoes {
+    margin-bottom: 20px;
+  }
+  
+  .configuracoes h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .configuracoes form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .configuracoes label {
+    margin-bottom: 5px;
+  }
+  
+  .configuracoes input[type="text"],
+  .configuracoes input[type="email"],
+  .configuracoes input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilização do rodapé */
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
