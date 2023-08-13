@@ -1,0 +1,134 @@
+<?php
+namespace App\Controllers;
+
+use App\Models\CandidatoModel;
+use App\Models\VagaModel;
+use App\Models\TesteModel;
+use App\Models\MensagemModel;
+use App\Models\CandidaturaModel;
+use App\Models\TesteCandidato;
+use CodeIgniter\Controller;
+
+class RecrutamentoController extends Controller
+{
+    
+    protected $helpers = ['form', 'url'];
+
+    private $vagaModel;
+    private $testeModel;
+    private $mensagemModel;
+    private $candidaturaModel;
+    private $testeCandidato;
+    private $candidatoModel;
+
+    public function __construct()
+    {
+        $this->vagaModel = model('VagaModel');
+        $this->testeModel = model('TesteModel');
+        $this->mensagemModel = model('MensagemModel');
+        $this->candidaturaModel = model('CandidaturaModel');
+        $this->testeCandidato = model('TesteCandidato');
+        $this->candidatoModel = model('CandidatoModel');
+    }
+
+    public function pagina2()
+    {
+        $data['vagas'] = $this->vagaModel->findAll();
+        $data['numero_vagas'] = $this->vagaModel->where('status', 'Aberta')->countAllResults();
+
+        return view('pagina2', $data);
+    }
+
+
+    public function atribuirTeste()
+    {
+        $data = [
+            'candidato_id' => $this->request->getPost('candidato_id'),
+            'teste_id' => $this->request->getPost('teste_id')
+        ];
+
+        if (!empty($data['candidato_id']) && !empty($data['teste_id'])) {
+            $this->testeModel->save($data);
+            return redirect()->to('/testeAtribuido');
+        } else {
+            // Handle error here
+        }
+    }
+
+    public function enviarMensagem()
+    {
+        $mensagemModel = new MensagemModel();
+        $data = [
+            'candidato_id' => $this->request->getPost('candidato_id'),
+            'mensagem' => $this->request->getPost('mensagem')
+        ];
+        $mensagemModel->save($data);
+        return redirect()->to('/mensagemEnviada');
+    }
+
+    public function adicionarVaga()
+    {
+        $vagaModel = new VagaModel();
+        $data = [
+            'titulo' => $this->request->getPost('titulo'),
+            'descricao' => $this->request->getPost('descricao'),
+            'requisitos' => $this->request->getPost('requisitos')
+        ];
+        $vagaModel->save($data);
+        return redirect()->to('/vagaAdicionada');
+    }
+
+    public function atualizarVaga()
+    {
+        $vagaModel = new VagaModel();
+        $data = [
+            'id' => $this->request->getPost('id'),
+            'titulo' => $this->request->getPost('titulo'),
+            'descricao' => $this->request->getPost('descricao'),
+            'requisitos' => $this->request->getPost('requisitos')
+        ];
+        $vagaModel->save($data);
+        return redirect()->to('/vagaAtualizada');
+    }
+
+    public function removerVaga()
+    {
+        $vagaModel = new VagaModel();
+        $id = $this->request->getPost('id');
+        $vagaModel->delete($id);
+        return redirect()->to('/vagaRemovida');
+    }
+
+    public function visualizarCandidato($id = null)
+    {
+        if ($id != null) {
+            $candidato = $this->candidatoModel->getCandidato($id);
+            if ($candidato) {
+                return $this->response->setJSON($candidato); // Retorna os dados do candidato como uma resposta JSON
+            } else {
+                return $this->response->setJSON(['error' => 'Candidato não encontrado']); // Retorna um JSON com o erro caso o candidato não seja encontrado
+            }
+        }
+    
+        return $this->response->setJSON(['error' => 'ID do candidato não fornecido']); // Retorna um JSON com o erro caso o ID não seja fornecido
+    }
+    
+    
+    
+    
+    
+
+    public function candidatura()
+    {
+        $candidaturaModel = new CandidaturaModel();
+        $data = [
+            'vaga_id' => $this->request->getPost('vaga_id'),
+            'nome' => $this->request->getPost('nome'),
+            'email' => $this->request->getPost('email'),
+            'telefone' => $this->request->getPost('telefone'),
+            'mensagem' => $this->request->getPost('mensagem')
+        ];
+        $candidaturaModel->save($data);
+        return redirect()->to('/candidaturaEnviada');
+    }
+}
