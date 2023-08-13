@@ -10,7 +10,10 @@
     <header>
       <nav>
         <ul>
+<<<<<<< HEAD
           <!-- Links de navegação para as seções do site -->
+=======
+>>>>>>> 51c37fe912e8f9ea43f407f114379b7b6eb5cd01
           <li><a href="http://localhost/paginas/public/#" class="btn-primary">Início</a></li>
           <li><a href="http://localhost/paginas/public/#sobre" class="btn-primary">Sobre</a></li>
           <li><a href="http://localhost/paginas/public/#produto" class="btn-primary">Produtos</a></li>
@@ -22,19 +25,28 @@
     <main>
       <section class="login">
         <h2>Login</h2>
+<<<<<<< HEAD
         <!-- Formulário de login com campos de usuário e senha -->
+=======
+>>>>>>> 51c37fe912e8f9ea43f407f114379b7b6eb5cd01
         <form action="<?= site_url('login') ?>" method="POST">
           <label for="username">Usuário:</label>
           <input type="text" id="username" name="username" required style="width: 80%;">
           <label for="password">Senha:</label>
           <input type="password" id="password" name="password" required style="width: 80%;">
           <div class="error" id="error-message"></div>
+<<<<<<< HEAD
           <!-- Link para redefinição de senha -->
           <p><a href="esqueceu-senha.html">Esqueceu a senha?</a></p>
           <!-- Botão para enviar o formulário -->
           <button type="submit" class="btn-primary">Entrar</button>
         </form>
         <!-- Link para criar uma nova conta -->
+=======
+          <p><a href="esqueceu-senha.html">Esqueceu a senha?</a></p>
+          <button type="submit" class="btn-primary">Entrar</button>
+        </form>
+>>>>>>> 51c37fe912e8f9ea43f407f114379b7b6eb5cd01
         <div class="create-account">
           <p>Não tem uma conta? <a href="<?= base_url('criar-conta') ?>">Criar uma conta</a></p>
         </div>
@@ -44,7 +56,10 @@
       <p>&copy; JobSide. All rights reserved.</p>
     </footer>
   </div>
+<<<<<<< HEAD
   <!-- Script JavaScript para manipular a autenticação -->
+=======
+>>>>>>> 51c37fe912e8f9ea43f407f114379b7b6eb5cd01
   <script src="http://localhost/paginas/public/login.js"></script>
 </body>
 </html>
