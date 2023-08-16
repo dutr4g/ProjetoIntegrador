@@ -21,10 +21,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-<<<<<<< HEAD
         'auth'          => \App\Filters\Authenticate::class,  // Adicionado aqui
-=======
->>>>>>> 51c37fe912e8f9ea43f407f114379b7b6eb5cd01
     ];
 
     /**
@@ -64,11 +61,7 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-<<<<<<< HEAD
     public array $filters = [
         'auth' => ['before' => ['pagina2']],  // Adicionado aqui
     ];
-=======
-    public array $filters = [];
->>>>>>> 51c37fe912e8f9ea43f407f114379b7b6eb5cd01
 }
